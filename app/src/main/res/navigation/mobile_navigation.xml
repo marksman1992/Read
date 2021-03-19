@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_reading"
+        android:name="com.example.read.ui.reading.ReadingFragment"
+        android:label="@string/menu_reading"
+        tools:layout="@layout/reading_fragment" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.example.read.ui.data.DataFragment"
+        android:label="@string/menu_data"
+        tools:layout="@layout/data_fragment" />
+    <fragment
+        android:id="@+id/nav_math"
+        android:name="com.example.read.ui.math.MathFragment"
+        android:label="@string/menu_math"
+        tools:layout="@layout/math_fragment" />
+    <fragment
+        android:id="@+id/nav_writing"
+        android:name="com.example.read.ui.writing.WritingFragment"
+        android:label="@string/menu_writing"
+        tools:layout="@layout/writing_fragment" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.read.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_spelling"
+        android:name="com.example.read.ui.spelling.SpellingFragment"
+        android:label="@string/menu_spelling"
+        tools:layout="@layout/spelling_fragment" />
+
+</navigation>

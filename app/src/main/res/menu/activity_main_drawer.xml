@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_school_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_spelling"
+            android:icon="@drawable/ic_baseline_comment_24"
+            android:title="@string/menu_spelling" />
+        <item
+            android:id="@+id/nav_math"
+            android:icon="@drawable/ic_baseline_plus_one_24"
+            android:title="@string/menu_math" />
+        <item
+            android:id="@+id/nav_writing"
+            android:icon="@drawable/ic_baseline_text_snippet_24"
+            android:title="@string/menu_writing" />
+        <item
+            android:id="@+id/nav_reading"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="@string/menu_reading" />
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_data" />
+
+    </group>
+</menu>
